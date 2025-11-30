@@ -44,9 +44,9 @@ The system consists of **four microservices**, each running independently inside
 Internal DNS resolves services automatically:
 
 ```
-http://auth-service:3001
-http://users-service:3002
-http://tasks-service:3003
+http://auth-service:80
+http://users-service:8000
+http://tasks-service:8080
 ```
 
 ## 🐳 Docker Image Workflow
